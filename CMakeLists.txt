@@ -13,7 +13,7 @@
 project(ArkCORE4-NG)
 
 # CMake policies (can not be handled elsewhere)
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.5.1)
 cmake_policy(SET CMP0005 OLD)
 cmake_policy(SET CMP0043 OLD) # Disable 'Ignore COMPILE_DEFINITIONS_<Config> properties'
 
